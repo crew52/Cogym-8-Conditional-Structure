@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice with ternary operators</title>
+</head>
+<body>
+<script>
+    // p1
+    let a = +prompt('a?','' );
+    let b = +prompt('b?','' );
+    let result = ((a +b) < 4) ? "Below" : "Over";
+    alert(result);
+
+    // p2
+    let login = prompt("Enter message: ");
+    let message = login === "Employee" ? "Hello" :
+                    login === "Director" ? "Greetings" :
+                        login === "" ? "No login" : "";
+    alert(message);
+
+</script>
+</body>
+</html>
