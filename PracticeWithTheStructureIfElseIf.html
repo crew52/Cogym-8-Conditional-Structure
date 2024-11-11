@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice with the structure if...else...if</title>
+</head>
+<body>
+
+<script>
+    let username = prompt("Enter username");
+    if (username !== "admin"){
+        if (username === null || username === "") {
+            alert("Canceled");
+        }else {
+            alert("I don't know you");
+        }
+    } else {
+        // true
+        let pass = prompt("Enter pass");
+        if (pass === "TheMaster") {
+            alert("Welcome");
+        }else {
+            if (pass === null || username === ""){
+                alert("Canceled");
+            }else {
+                alert("Wrong password");
+            }
+        }
+    }
+</script>
+</body>
+</html>
